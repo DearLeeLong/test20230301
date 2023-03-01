@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="575520a5-d167-49ba-b85e-5d88f7fd55c7" name="Default Changelist" comment="项目初始化" />
+    <list default="true" id="575520a5-d167-49ba-b85e-5d88f7fd55c7" name="Default Changelist" comment="项目初始化">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/ruoyi-framework/target/" />
     <ignored path="$PROJECT_DIR$/ruoyi-system/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -90,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677666816491</updated>
-      <workItem from="1677666820028" duration="3636000" />
+      <workItem from="1677666820028" duration="3876000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始化">
       <created>1677675606953</created>
@@ -103,22 +105,22 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3636000" />
+    <option name="totallyTimeSpent" value="3876000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="926" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="926" extended-state="7" />
     <layout>
       <window_info id="Web" side_tool="true" />
       <window_info id="Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Spring" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3299748" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3299748" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.3299748" />
       <window_info anchor="bottom" id="Message" order="0" />
