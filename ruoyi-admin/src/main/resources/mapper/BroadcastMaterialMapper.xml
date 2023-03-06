@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.intelligent_explanation.mapper.BroadcastMaterialMapper">
+    <insert id="insertBroadcastMaterialSelective" parameterType="com.ruoyi.intelligent_explanation.domian.BroadcastMaterial" >
+        insert into broadcast_material
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id !=null and id != 0">
+                id,
+            </if>
+            <if test="materialName !=null and materialName != ''">
+                material_name,
+            </if>
+            <if test="sceneType !=null and sceneType != ''">
+                scene_type,
+            </if>
+            <if test="businessType !=null and businessType != '' ">
+                business_type,
+            </if>
+            <if test="fileType !=null and fileType != ''">
+                file_type,
+            </if>
+            <if test="audioFile !=null and audioFile != ''">
+                audio_file,
+            </if>
+            <if test="audioText !=null and audioText != ''">
+                audio_text,
+            </if>
+            <if test="materialFile !=null and materialFile != ''">
+                material_file,
+            </if>
+            <if test="materialDesc !=null and materialDesc != ''">
+                material_desc,
+            </if>
+            <if test="createBy !=null and createBy != ''">
+                create_by,
+            </if>
+            <if test="updateBy !=null and updateBy != ''">
+                update_by,
+            </if>
+
+
+        </trim>
+        <trim prefix="values(" suffix=")" suffixOverrides=",">
+            <if test="id !=null and id != 0">
+                #{id},
+            </if>
+            <if test="materialName !=null and materialName != ''">
+                #{materialName},
+            </if>
+            <if test="sceneType !=null and sceneType != '' ">
+                #{sceneType},
+            </if>
+            <if test="businessType !=null and businessType != '' ">
+                #{businessType},
+            </if>
+            <if test="fileType !=null and fileType != '' ">
+                #{fileType},
+            </if>
+            <if test="audioFile !=null and audioFile != '' ">
+                #{audioFile},
+            </if>
+            <if test="audioText !=null and audioText != '' ">
+                #{audioText},
+            </if>
+            <if test="materialFile !=null and materialFile != '' ">
+                #{materialFile},
+            </if>
+            <if test="materialDesc !=null and materialDesc != '' ">
+                #{materialDesc},
+            </if>
+            <if test="createBy !=null and createBy != '' ">
+                #{createBy},
+            </if>
+            <if test="updateBy !=null and updateBy != '' ">
+                #{updateBy},
+            </if>
+
+        </trim>
+
+    </insert>
+    <sql id="tableColSql">
+        id,material_name materialName,scene_type sceneType,business_type businessType,
+        file_type fileType,audio_file audioFile,audio_text audioText,material_file materialFile,material_desc materialDesc,
+        create_by createBy,update_by updateBy
+    </sql>
+    <select id="selectBroadcastMaterialBySelective"   resultType="com.ruoyi.intelligent_explanation.domian.BroadcastMaterial">
+
+        select <include refid="tableColSql" />from broadcast_material
+        <where>
+            <if test="broadcastMaterial.id !=null and broadcastMaterial.id != 0">
+                id =#{broadcastMaterial.id}
+            </if>
+            <if test="broadcastMaterial.materialName !=null and broadcastMaterial.materialName!='' ">
+             and    material_name like  concat('%',#{broadcastMaterial.materialName},'%')
+            </if>
+            <if test="broadcastMaterial.sceneType !=null and broadcastMaterial.sceneType!='' ">
+              and   scene_type =#{broadcastMaterial.sceneType}
+            </if>
+            <if test="broadcastMaterial.materialName !=null and broadcastMaterial.materialName!='' ">
+               and  business_type =  #{broadcastMaterial.businessType}
+            </if>
+        </where>
+        order by update_time,create_time desc
+        <if test="pageSize !=null and pageSize !=0">
+        limit #{startNum},#{pageSize}
+        </if>;
+    </select>
+    <update id="updateBroadcastMaterial" parameterType="com.ruoyi.intelligent_explanation.domian.BroadcastMaterial">
+        update broadcast_material
+        <set>
+        <if test="materialName !=null and materialName!='' ">
+            material_name=#{materialName},
+        </if>
+        <if test="sceneType !=null and sceneType != ''">
+            scene_type=#{sceneType},
+        </if>
+        <if test="businessType !=null and businessType != '' ">
+            business_type=#{businessType},
+        </if>
+        <if test="fileType !=null and fileType != ''">
+            file_type=#{fileType},
+        </if>
+        <if test="audioFile !=null and audioFile != ''">
+            audio_file=#{audioFile},
+        </if>
+        <if test="audioText !=null and audioText != ''">
+            audio_text=#{audioText},
+        </if>
+        <if test="materialFile !=null and materialFile != ''">
+            material_file=#{materialFile},
+        </if>
+        <if test="materialDesc !=null and materialDesc != ''">
+            material_desc=#{materialDesc},
+        </if>
+        <if test="createBy !=null and createBy != ''">
+            create_by=#{createBy},
+        </if>
+        <if test="updateBy !=null and updateBy != ''">
+            update_by=#{updateBy},
+        </if>
+        </set>
+        where id=#{id}
+    </update>
+    <delete id="deleteBroadcastMaterialById" parameterType="java.lang.Long" >
+        delete from broadcast_material
+        id=#{id}
+    </delete>
+    <delete id="deleteBroadcastMaterialByIdsList" parameterType="java.util.List" >
+        delete from broadcast_material
+        where  id in
+        <foreach collection="idsList" item="id" separator="," open="(" close=")">
+            #{id}
+        </foreach>
+    </delete>
+</mapper>

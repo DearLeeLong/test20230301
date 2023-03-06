@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.intelligent_explanation.mapper.ExplainSceneMapper">
+    <insert id="insertExplainSceneSelective" parameterType="com.ruoyi.intelligent_explanation.domian.ExplainScene">
+        insert into explain_scene
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id !=null and id != 0">
+                id,
+            </if>
+            <if test="sceneName !=null and sceneName != ''">
+                scene_name,
+            </if>
+            <if test="sceneType !=null and sceneType != ''">
+                scene_type,
+            </if>
+            <if test="radioMode !=null and radioMode != '' ">
+                radio_mode,
+            </if>
+            <if test="sceneWelcome !=null and sceneWelcome != ''">
+                scene_welcome,
+            </if>
+            <if test="materialName !=null and materialName != ''">
+                material_name,
+            </if>
+            <if test="broadcastMaterialId !=null and broadcastMaterialId != 0">
+                broadcast_material_id,
+            </if>
+            <if test="createBy !=null and createBy != ''">
+                create_by,
+            </if>
+            <if test="updateBy !=null and updateBy != ''">
+                update_by,
+            </if>
+
+
+        </trim>
+        <trim prefix="values(" suffix=")" suffixOverrides=",">
+            <if test="id !=null and id != 0">
+                #{id},
+            </if>
+            <if test="sceneName !=null and sceneName != ''">
+                #{sceneName},
+            </if>
+            <if test="sceneType !=null and sceneType != '' ">
+                #{sceneType},
+            </if>
+            <if test="radioMode !=null and radioMode != '' ">
+                #{radioMode},
+            </if>
+            <if test="sceneWelcome !=null and sceneWelcome != '' ">
+                #{sceneWelcome},
+            </if>
+            <if test="materialName !=null and materialName != '' ">
+                #{materialName},
+            </if>
+            <if test="broadcastMaterialId !=null and broadcastMaterialId != 0 ">
+                #{broadcastMaterialId},
+            </if>
+            <if test="createBy !=null and createBy != '' ">
+                #{createBy},
+            </if>
+            <if test="updateBy !=null and updateBy != '' ">
+                #{updateBy},
+            </if>
+
+        </trim>
+    </insert>
+    <sql id="tableCSql">
+        id,scene_name sceneName,scene_type sceneType,radio_mode radioMode,scene_welcome sceneWelcome,
+        broadcast_Material_Id broadcastMaterialId
+
+    </sql>
+    <select id="selectExplainSceneList"  resultType="com.ruoyi.intelligent_explanation.domian.ExplainScene">
+        select <include refid="tableCSql"/> from explain_scene
+        <where>
+
+            <if test="explainScene.id !=null and explainScene.id!=0 ">
+            id =#{explainScene.id}
+            </if>
+            <if test="explainScene.sceneName !=null and explainScene.sceneName!='' ">
+             and   scene_name like  concat('%',#{explainScene.sceneName},'%')
+            </if>
+            <if test="explainScene.sceneType !=null and explainScene.sceneType!='' ">
+             and   scene_type =#{explainScene.sceneType}
+            </if>
+            <if test="explainScene.radioMode !=null and explainScene.radioMode!='' ">
+             and   radio_mode =#{explainScene.radioMode}
+            </if>
+            <if test="pageSize!=null and pageSize!=0">
+                limit #{startNum},#{pageSize}
+            </if>
+        </where>
+    </select>
+    <delete id="deleteExplainSceneByIds" parameterType="java.util.List">
+        delete from explain_scene where id in  <foreach collection="idsList" item="id" separator="," open="(" close=")">
+        #{id}
+    </foreach>
+    </delete>
+    <update id="updateExplainScene" parameterType="com.ruoyi.intelligent_explanation.domian.ExplainScene" >
+        update explain_scene
+        <set>
+            <if test="sceneName !=null and sceneName != ''">
+                scene_name=#{sceneName},
+            </if>
+            <if test="sceneType !=null and sceneType != ''">
+                scene_type=#{sceneType},
+            </if>
+            <if test="radioMode !=null and radioMode != '' ">
+                radio_mode=#{radioMode},
+            </if>
+            <if test="sceneWelcome !=null and sceneWelcome != ''">
+                scene_welcome=#{sceneWelcome},
+            </if>
+            <if test="materialName !=null and materialName != ''">
+                material_name=#{materialName},
+            </if>
+            <if test="broadcastMaterialId !=null and broadcastMaterialId != 0">
+                broadcast_material_id =#{broadcastMaterialId},
+            </if>
+            <if test="createBy !=null and createBy != ''">
+                create_by =#{createBy},
+            </if>
+            <if test="updateBy !=null and updateBy != ''">
+                update_by =#{updateBy},
+            </if>
+
+        </set>
+        where id =#{id}
+    </update>
+</mapper>

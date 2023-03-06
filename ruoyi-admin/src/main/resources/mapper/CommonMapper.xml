@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.intelligent_explanation.mapper.CommonMapper">
+    <select id="getConstByType" parameterType="string" resultType="map">
+        select dict_label, dict_value, dict_type
+		from sys_dict_data where dict_type=#{dictType} and status=0 order by dict_sort asc;
+    </select>
+</mapper>

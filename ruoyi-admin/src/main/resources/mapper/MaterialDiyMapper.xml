@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.intelligent_explanation.mapper.MaterialDiyMapper">
+    <insert id="insertMaterialDiySelective" parameterType="com.ruoyi.intelligent_explanation.domian.MaterialDiy" >
+        insert into material_diy
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id !=null and id != 0">
+            id,
+            </if>
+            <if test="broadcastMaterialId !=null and broadcastMaterialId != 0">
+                broadcast_material_id,
+            </if>
+            <if test="serialNumber !=null and serialNumber != 0">
+                serial_number,
+            </if>
+            <if test="audioType !=null and audioType != '' ">
+                audio_type,
+            </if>
+            <if test="audioContent !=null and audioContent != ''">
+                audio_content,
+            </if>
+            <if test="diyContent !=null and diyContent != ''">
+                diy_content,
+            </if>
+            <if test="broadcastDuration !=null and broadcastDuration != 0">
+                broadcast_duration,
+            </if>
+            <if test="remak !=null and remak != ''">
+                remak,
+            </if>
+
+        </trim>
+        <trim prefix='values(' suffix=')' suffixOverrides=','>
+            <if test="id !=null and id != 0">
+            #{id},
+            </if>
+            <if test="broadcastMaterialId !=null and broadcastMaterialId != 0">
+               #{broadcastMaterialId},
+            </if>
+            <if test="serialNumber !=null and serialNumber != 0 ">
+            #{serialNumber},
+            </if>
+            <if test="audioType !=null and audioType != '' ">
+                #{audioType},
+            </if>
+            <if test="audioContent !=null and audioContent != '' ">
+                #{audioContent},
+            </if>
+            <if test="diyContent !=null and diyContent != '' ">
+                #{diyContent},
+            </if>
+            <if test="broadcastDuration !=null and broadcastDuration != 0 ">
+                #{broadcastDuration},
+            </if>
+            <if test="remak !=null and remak != '' ">
+                #{remak},
+            </if>
+        </trim>
+
+    </insert>
+    <select id="selectMaterialDiyListByIds"  parameterType="java.util.List" resultType="com.ruoyi.intelligent_explanation.domian.MaterialDiy" >
+
+    select <include refid="selectTableColumnVo"/> from material_diy
+    where
+        id in
+        <foreach collection="idsList" item="id" separator="," open="(" close=")">
+        #{id}
+        </foreach>
+    </select>
+<sql id="selectTableColumnVo">id,broadcast_material_id broadcastMaterialId,serial_number serialNumber ,audio_type audioType,
+        audio_content audioContent,diy_content diyContent,broadcast_duration broadcastDuration,remak</sql>
+    <select id="selectMaterialDiyListByMaterialIds"    resultType="com.ruoyi.intelligent_explanation.domian.MaterialDiy">
+        select
+        <include refid="selectTableColumnVo"/>
+        from material_diy
+        where
+        broadcast_material_id in
+        <foreach collection="materialIdsList" item="materialId" separator="," open="(" close=")">
+        #{materialId}
+        </foreach>
+        <if test="pageSize!=0">
+        limit #{startNum},#{pageSize}
+        </if>
+    </select>
+    <delete id="deleteMaterialDiyByIds" parameterType="java.util.List">
+        delete from material_diy where
+        id in
+        <foreach collection="idsList" item="id" separator="," open="(" close=")">
+            #{id}
+        </foreach>
+
+    </delete>
+    <delete id="deleteMaterialDiyByMaterialIds" parameterType="java.util.List" >
+        delete from material_diy where
+        broadcast_material_id in
+        <foreach collection="materialIdsList" item="materialId" separator="," open="(" close=")">
+            #{materialId}
+        </foreach>
+
+    </delete>
+</mapper>

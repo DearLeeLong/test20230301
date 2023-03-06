@@ -1,9 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="575520a5-d167-49ba-b85e-5d88f7fd55c7" name="Default Changelist" comment="项目初始化">
+    <list default="true" id="575520a5-d167-49ba-b85e-5d88f7fd55c7" name="Default Changelist" comment="项目初始化，修改数据源">
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/api/BroadcastMaterialService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/api/ExplainSceneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/api/MaterialDiyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/config/SnowFlakeConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/controller/BroadcastMaterialController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/controller/CommonsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/controller/ExplainSceneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/controller/MaterialController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/controller/result/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/domian/BroadcastMaterial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/domian/ExplainScene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/domian/MaterialDiy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/domian/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/dto/BroadcastMaterialDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/dto/ExplainSceneDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/dto/MaterialDiyDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/mapper/BroadcastMaterialMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/mapper/CommonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/mapper/ExplainSceneMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/mapper/MaterialDiyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/service/BroadcastMaterialServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/service/ExplainSceneServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/service/MaterialDiyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/utils/FileUploadUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/utils/ServersConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/utils/ServletUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/vo/BroadcastMaterialVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/vo/ExplainSceneVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/vo/MaterialDiyVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/resources/mapper/BroadcastMaterialMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/resources/mapper/CommonMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/resources/mapper/ExplainSceneMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/resources/mapper/MaterialDiyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/resources/mybatis/mapper" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/tables.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-admin/src/main/resources/application-druid.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/resources/application-druid.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-framework/src/main/java/com/ruoyi/framework/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-framework/src/main/java/com/ruoyi/framework/config/ShiroConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/ruoyi-framework/target/" />
     <ignored path="$PROJECT_DIR$/ruoyi-system/target/" />
@@ -12,84 +48,34 @@
     <ignored path="$PROJECT_DIR$/ruoyi-generator/target/" />
     <ignored path="$PROJECT_DIR$/ruoyi-common/target/" />
     <ignored path="$PROJECT_DIR$/ruoyi-admin/target/" />
+    <ignored path="$PROJECT_DIR$/Intelligent_explanation/target/" />
+    <ignored path="$PROJECT_DIR$/Intelligent_explanation/.gradle/" />
+    <ignored path="$PROJECT_DIR$/Intelligent_explanation/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/Intelligent_explanation">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql/quartz.sql">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql/ry_20230223.sql">
+        <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/domian/ExplainScene.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="76" selection-end-line="719" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/web/controller/monitor/DruidController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" column="30" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/web/controller/monitor/SysLogininforController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="26" column="36" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/web/controller/monitor/SysOperlogController.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/web/controller/monitor/SysUserOnlineController.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/web/controller/monitor/CacheController.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/resources/application-druid.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/RuoYiServletInitializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="85">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,13 +83,128 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/api/ExplainSceneService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/resources/mapper/ExplainSceneMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1632">
+              <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/resources/mapper/MaterialDiyMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1632">
+              <caret line="96" column="29" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/resources/mapper/BroadcastMaterialMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1411">
+              <caret line="83" column="86" selection-start-line="83" selection-start-column="86" selection-end-line="83" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/controller/CommonsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ruoyi-common/src/main/java/com/ruoyi/common/config/RuoYiConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+              <folding>
+                <element signature="e#1374#1375#0" expanded="true" />
+                <element signature="e#1404#1405#0" expanded="true" />
+                <element signature="e#2174#2175#0" expanded="true" />
+                <element signature="e#2221#2222#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/RuoYiApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sql/tables.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="259" column="32" lean-forward="true" selection-start-line="259" selection-start-column="32" selection-end-line="259" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>sys_de</find>
       <find>sys_post</find>
+      <find>mapperSc</find>
+      <find>ruoyi</find>
+      <find>sys_dict</find>
+      <find>session</find>
+      <find>登录验证</find>
+      <find>Cookie</find>
+      <find>unauthorizedUrl</find>
+      <find>SysDict</find>
+      <find>include</find>
+      <find>uploadFile</find>
+      <find>explain</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -123,8 +224,63 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ruoyi-admin/src/main/resources/application-druid.yml" />
+        <option value="$PROJECT_DIR$/Intelligent_explanation/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/Intelligent_explanation/utils/s.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/Intelligent_explanation/domian/MaterialDiy.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/Intelligent_explanation/domian/BroadcastMaterial.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/Intelligent_explanation/utils/SnowFlakeUtils.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/domian/BroadcastMaterial.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/controller/BaseController.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/resources/mapper/a" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/resources/mapper/as.xml" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/domian/ExplainScene.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/utils/PageUtils.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/utils/SnowFlakeUtils.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/config/SnowFlakeConfig.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/controller/SysDictDataController.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/controller/CommonController.java" />
+        <option value="$PROJECT_DIR$/ruoyi-framework/src/main/java/com/ruoyi/framework/config/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/mapper/CommonMapper.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/resources/mapper/CommonMapper.xml" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/mapper/MaterialDiyMapper.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/resources/mapper/MaterialDiyMapper.xml" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/api/BroadcastMaterialService.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/utils/FileUploadUtils.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/utils/ServletUtils.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/utils/ServerConfig.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/controller/CommonsController.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/api/ExplainSceneService.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/service/ExplainSceneServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/utils/ServersConfig.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/controller/result/Result.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/vo/PageVo.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/domian/Page.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/dto/BroadcastMaterialDto.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/dto/MaterialDiyDto.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/dto/ExplainSceneDto.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/vo/BroadcastMaterialVo.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/vo/ExplainSceneVo.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/vo/MaterialDiyVo.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/controller/BroadcastMaterialController.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/controller/ExplainSceneController.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/controller/MaterialController.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/api/MaterialDiyService.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/mapper/BroadcastMaterialMapper.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/resources/mapper/BroadcastMaterialMapper.xml" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/service/BroadcastMaterialServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/service/MaterialDiyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/mapper/ExplainSceneMapper.java" />
+        <option value="$PROJECT_DIR$/ruoyi-admin/src/main/resources/mapper/ExplainSceneMapper.xml" />
+        <option value="$PROJECT_DIR$/sql/tables.sql" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
@@ -134,10 +290,10 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,7 +325,87 @@
               <item name="ruoyi-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test20230301" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test20230301" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test20230301" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test20230301" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="intelligent_explanation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test20230301" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test20230301" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="intelligent_explanation" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test20230301" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test20230301" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="intelligent_explanation" type="462c0819:PsiDirectoryNode" />
+              <item name="domian" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test20230301" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test20230301" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="intelligent_explanation" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test20230301" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test20230301" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="intelligent_explanation" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test20230301" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test20230301" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test20230301" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test20230301" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test20230301" type="b2602c69:ProjectViewProjectNode" />
@@ -180,6 +416,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -190,13 +427,22 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/appName" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Intelligent_explanation" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ruoyi.intelligent_explanation.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\13146\Downloads\test20230301\ruoyi-admin\src\main\resources\mapper" />
+      <recent name="C:\Users\13146\Downloads\test20230301\ruoyi-admin\src\main\java\com\ruoyi" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -210,7 +456,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.RuoYiApplication">
+    <configuration name="SnowFlakeUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ruoyi.intelligent_explanation.utils.SnowFlakeUtils" />
+      <module name="ruoyi-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ruoyi.intelligent_explanation.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RuoYiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ruoyi-admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruoyi.RuoYiApplication" />
@@ -218,6 +477,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SnowFlakeUtils" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -231,7 +495,11 @@
       <updated>1677666816491</updated>
       <workItem from="1677666820028" duration="3876000" />
       <workItem from="1677715328324" duration="3286000" />
-      <workItem from="1677722806275" duration="240000" />
+      <workItem from="1677722806275" duration="2678000" />
+      <workItem from="1677758600345" duration="3523000" />
+      <workItem from="1677803007484" duration="21596000" />
+      <workItem from="1677894500980" duration="24810000" />
+      <workItem from="1678060651440" duration="176000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始化">
       <created>1677675606953</created>
@@ -240,191 +508,562 @@
       <option name="project" value="LOCAL" />
       <updated>1677675606953</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="项目初始化，修改数据源">
+      <created>1677723129721</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677723129721</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7402000" />
+    <option name="totallyTimeSpent" value="59945000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="926" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="926" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.49798927" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3299748" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.06926952" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3073048" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28337532" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3299748" />
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3299748" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3299748" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Build" order="15" visible="true" weight="0.3299748" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.02010724" />
       <window_info anchor="right" id="Bean Validation" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Gradle" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.49128687" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.06926952" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3073048" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39924434" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3299748" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3299748" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3299748" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Build" order="15" visible="true" weight="0.3299748" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.02010724" />
+      <window_info anchor="right" id="Bean Validation" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Gradle" order="7" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目初始化" />
+    <MESSAGE value="项目初始化，修改数据源" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目初始化，修改数据源" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/controller/CommonsController.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/controller/CommonsController.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/controller/CommonsController.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/controller/CommonsController.java</url>
+          <line>38</line>
+          <properties class="com.ruoyi.intelligent_explanation.controller.CommonsController" method="upload">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ruoyi-system/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/resources/ehcache/ehcache-shiro.xml">
+    <entry file="file://$PROJECT_DIR$/ruoyi-framework/src/main/java/com/ruoyi/framework/web/service/DictService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="166">
+          <caret line="31" column="40" lean-forward="true" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/resources/static/html/ie.html">
+    <entry file="file://$PROJECT_DIR$/ruoyi-system/src/main/resources/mapper/system/SysDictDataMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-399" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruoyi-generator/src/main/java/com/ruoyi/generator/config/GenConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-430" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruoyi-generator/src/main/java/com/ruoyi/generator/controller/GenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="85" column="45" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="45" />
+        <state relative-caret-position="72">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="24" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruoyi-generator/src/main/java/com/ruoyi/generator/util/GenUtils.java">
+    <entry file="file://$PROJECT_DIR$/ruoyi-system/src/main/java/com/ruoyi/system/service/impl/SysDictTypeServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="41" />
+        <state relative-caret-position="293">
+          <caret line="83" column="48" selection-start-line="83" selection-start-column="48" selection-end-line="83" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruoyi-generator/src/main/java/com/ruoyi/generator/domain/GenTableColumn.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruoyi-generator/src/main/java/com/ruoyi/generator/domain/GenTable.java">
+    <entry file="file://$PROJECT_DIR$/ruoyi-system/src/main/java/com/ruoyi/system/service/ISysDictTypeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-340">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        <state relative-caret-position="166">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql/ruoyi.html">
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/resources/mapper/CommonMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4539" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/ruoyi.pdm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
+        <state relative-caret-position="102">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/web/core/config/SwaggerConfig.java">
+    <entry file="jar://D:/java/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/RuoYiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="272">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/resources/banner.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/resources/logback.xml">
+    <entry file="file://$PROJECT_DIR$/ruoyi-generator/src/main/resources/mapper/generator/GenTableColumnMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        <state relative-caret-position="150">
+          <caret line="36" column="46" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/web/controller/monitor/DruidController.java">
+    <entry file="file://$PROJECT_DIR$/ruoyi-common/src/main/java/com/ruoyi/common/core/domain/AjaxResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="30" />
+        <state relative-caret-position="901">
+          <caret line="61" column="21" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/web/controller/monitor/SysLogininforController.java">
+    <entry file="file://$PROJECT_DIR$/ruoyi-common/src/main/java/com/ruoyi/common/utils/file/MimeTypeUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="36" />
+        <state relative-caret-position="167">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/web/controller/monitor/SysOperlogController.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/web/controller/monitor/SysUserOnlineController.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/web/controller/monitor/CacheController.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/RuoYiServletInitializer.java">
+    <entry file="file://$PROJECT_DIR$/ruoyi-common/src/main/java/com/ruoyi/common/utils/file/FileUploadUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="142">
+          <caret line="100" column="31" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/utils/FileUploadUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="102" column="37" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/utils/ServletUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-common/src/main/java/com/ruoyi/common/utils/ServletUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="94" column="29" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="29" />
+          <folding>
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#1987#1988#0" expanded="true" />
+            <element signature="e#2045#2046#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/src.zip!/java/lang/StringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="427" column="37" selection-start-line="427" selection-start-column="37" selection-end-line="427" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-common/src/main/java/com/ruoyi/common/config/ServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/web/controller/common/CommonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="80" column="9" lean-forward="true" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/mapper/CommonMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql/quartz.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/ry_20230223.sql">
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/utils/ServersConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="76" selection-end-line="719" selection-end-column="55" />
+        <state relative-caret-position="481">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding>
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/resources/application-druid.yml">
+    <entry file="jar://D:/java/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="137" column="50" lean-forward="true" selection-start-line="137" selection-start-column="50" selection-end-line="137" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/controller/result/Result.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/vo/PageVo.java" />
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/domian/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/domian/MaterialDiy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/dto/MaterialDiyDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/dto/ExplainSceneDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/vo/ExplainSceneVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/vo/MaterialDiyVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/vo/BroadcastMaterialVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/api/MaterialDiyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/controller/MaterialController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="40" column="60" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/api/BroadcastMaterialService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/domian/BroadcastMaterial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/dto/BroadcastMaterialDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/mapper/BroadcastMaterialMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="88" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/mapper/MaterialDiyMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/service/BroadcastMaterialServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="40" selection-start-line="40" selection-end-line="40" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/controller/BroadcastMaterialController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/service/MaterialDiyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/service/ExplainSceneServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/mapper/ExplainSceneMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/controller/ExplainSceneController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/domian/ExplainScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/api/ExplainSceneService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/resources/mapper/ExplainSceneMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/resources/mapper/MaterialDiyMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="96" column="29" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/resources/mapper/BroadcastMaterialMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" column="86" selection-start-line="83" selection-start-column="86" selection-end-line="83" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/intelligent_explanation/controller/CommonsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-common/src/main/java/com/ruoyi/common/config/RuoYiConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+          <folding>
+            <element signature="e#1374#1375#0" expanded="true" />
+            <element signature="e#1404#1405#0" expanded="true" />
+            <element signature="e#2174#2175#0" expanded="true" />
+            <element signature="e#2221#2222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/RuoYiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ruoyi-admin/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        <state relative-caret-position="187">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/tables.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="259" column="32" lean-forward="true" selection-start-line="259" selection-start-column="32" selection-end-line="259" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -445,7 +1084,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -480,7 +1119,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>test20230301</last-edited>
+          <last-edited>Intelligent_explanation</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
